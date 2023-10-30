@@ -4,6 +4,7 @@ import './globals.css'
 import Header from "@/app/header";
 import Footer from "@/app/footer";
 import SmoothScroller from "@/app/lenis";
+import { Analytics } from '@vercel/analytics/react';
 
 
 const syne = Syne({
@@ -27,6 +28,7 @@ export default function RootLayout({children}) {
                     <Header/>
                     {children}
                     <Footer/>
+                    <Analytics />
                 </body>
             </html>
         </>
