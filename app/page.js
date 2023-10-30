@@ -3,7 +3,7 @@ import Image from "next/image";
 function Page() {
     return (
         <main role="main">
-            <section id="hero" className="container relative py-24 lg:pt-40">
+            <section id="hero" className="container relative py-16 lg:pt-40">
                 <div className="prose sm:prose-sm md:prose-md lg:prose-lg prose-invert max-w-none md:max-w-4xl">
                     <p className='text-xs lg:text-base text-brand font-light mb-2'>Currently available to take on your
                         projects.</p>
