@@ -27,6 +27,9 @@ export default function Header() {
                         <a href="#about" className='underline-offset-4 hover:text-white duration-300 decoration-[0.5px] hover:underline'>About</a>
                     </li>
                     <li>
+                        <a href="/blogs" className='cursor-not-allowed underline-offset-4 hover:text-white duration-300 decoration-[0.5px] hover:underline'>Blogs</a>
+                    </li>
+                    <li>
                         <a href="#contact" className='text-brand-900 bg-brand py-4 px-10 rounded-full duration-300'>Get in touch 👋</a>
                     </li>
                 </ul>
