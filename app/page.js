@@ -3,25 +3,26 @@ import Image from "next/image";
 function Page() {
     return (
         <main role="main">
-            <section id="hero" className="container relative py-24 lg:py-40">
+            <section id="hero" className="container relative py-24 lg:pt-40">
                 <div className="prose sm:prose-sm md:prose-md lg:prose-lg prose-invert max-w-none md:max-w-4xl">
-                    <p className='text-xs lg:text-base text-brand font-light mb-2'>This page is currently being working
-                        on.</p>
+                    <p className='text-xs lg:text-base text-brand font-light mb-2'>Currently available to take on your
+                        projects.</p>
                     <h1>Digital immersive experiences to inspire audience.</h1>
-                    <p className='max-w-2xl'>Join us on a web adventure like no other. We&#39;re all about creating
-                        mind-blowing digital
-                        experiences. Ready to embark on the ride of a lifetime?</p>
+                    <p className='max-w-2xl'>
+                        Join me on a web adventure like no other. I&#39;m all about creating mind-blowing digital
+                        experiences. Are you ready to embark on the ride of a lifetime?</p>
                 </div>
-                <Image src="/lines.svg" alt="" className="absolute inset-0 h-full w-auto lg:w-full lg:h-auto object-cover object-top -z-50 pointer-events-none" width={1920} height={1080}/>
+                <Image src="/lines.svg" alt=""
+                       className="absolute inset-0 h-full w-auto lg:w-full lg:h-auto object-cover object-top -z-50 pointer-events-none"
+                       width={1920} height={1080}/>
             </section>
 
             <section id="services" className="container relative py-24 lg:py-40">
                 <div className="prose lg:prose-md prose-invert max-w-none lg:grid grid-cols-2 gap-x-12 items-start">
                     <div className='max-w-xl'>
                         <h2>🏆 Services that Create Digital Experiences for Your Audience.</h2>
-                        <p>Elevate your brand with award-winning digital experiences that captivate. We design the
-                            future of
-                            web interaction, just for you.</p>
+                        <p>Elevate your brand with award-winning digital experiences that captivate. I design the future
+                            of web interaction, just for you.</p>
                     </div>
 
                     <dl className='mt-20 lg:grid grid-cols-2 col-start-2 gap-x-8 prose max-w-none'>
@@ -66,7 +67,9 @@ function Page() {
                         </dd>
                     </dl>
                 </div>
-                <Image src="/lines-2.svg" alt="" className="absolute inset-0 translate-y-1/4 h-full w-auto lg:w-full lg:h-auto object-cover object-top -z-50 pointer-events-none" width={1920} height={1080}/>
+                <Image src="/lines-2.svg" alt=""
+                       className="absolute inset-0 translate-y-1/4 h-full w-auto lg:w-full lg:h-auto object-cover object-top -z-50 pointer-events-none"
+                       width={1920} height={1080}/>
             </section>
 
             <section id="about" className="container relative py-24 lg:py-40">
@@ -76,10 +79,9 @@ function Page() {
 
                     <div className='max-w-lg prose sm:prose-sm md:prose-md lg:prose-lg prose-invert'>
                         <h2>🌿 Unearth the Tale Behind Our Remarkable Journey.</h2>
-                        <p>At our digital studio, we&#39;re dedicated to crafting immersive digital experiences that
-                            engage and inspire your audience. </p>
-                        <p>Our team of designers, developers, and strategists work together to create vibrant, enduring
-                            brand experiences that resonate with your audience. </p>
+                        <p>Committed to the art of creating immersive digital experiences, my passion lies in designing
+                            interactive solutions that captivate and inspire your audience, leaving a lasting and
+                            impactful impression.</p>
                     </div>
                 </div>
             </section>
@@ -91,13 +93,17 @@ function Page() {
                 </div>
 
                 <Image quality={100} src="/contact-1.png" alt=""
-                       className="absolute scale-75 sm:scale-90 md:scale-95 lg:scale-100 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -z-50" width={624} height={483}/>
+                       className="absolute scale-75 sm:scale-90 md:scale-95 lg:scale-100 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -z-50"
+                       width={624} height={483}/>
                 <Image quality={100} src="/contact-2.png" alt=""
-                       className="absolute scale-75 sm:scale-90 md:scale-95 lg:scale-100 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -z-40" width={600} height={492}/>
+                       className="absolute scale-75 sm:scale-90 md:scale-95 lg:scale-100 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -z-40"
+                       width={600} height={492}/>
                 <Image quality={100} src="/contact-3.png" alt=""
-                       className="absolute scale-75 sm:scale-90 md:scale-95 lg:scale-100 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -z-30" width={531} height={409}/>
+                       className="absolute scale-75 sm:scale-90 md:scale-95 lg:scale-100 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -z-30"
+                       width={531} height={409}/>
                 <Image quality={100} src="/contact-4.png" alt=""
-                       className="absolute scale-75 sm:scale-90 md:scale-95 lg:scale-100 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -z-20" width={558} height={461}/>
+                       className="absolute scale-75 sm:scale-90 md:scale-95 lg:scale-100 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -z-20"
+                       width={558} height={461}/>
             </section>
         </main>
     )

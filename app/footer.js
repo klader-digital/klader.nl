@@ -3,10 +3,9 @@ import Image from "next/image";
 export default function Footer() {
     return (
         <footer className='container relative isolate lg:grid lg:grid-cols-2 overflow-hidden pt-[100vh] -mt-[100vh]'>
-            <div className="prose prose-invert max-w-sm lg:col-span-2">
+            <div className="prose prose-invert max-w-md lg:col-span-2">
                 <h3 className='text-4xl font-normal'>Klader.nl</h3>
-                <p className='mt-0'>we&#39;re dedicated to crafting immersive digital experiences that engage and inspire
-                    your audience.</p>
+                <p className='mt-0'>My passion lies in designing interactive solutions that captivate and inspire your audience, leaving a lasting and impactful impression.</p>
             </div>
 
             <div className="grid grid-cols-2 mt-8 text-sm mb-16">
@@ -85,7 +84,7 @@ export default function Footer() {
                 </li>
             </ul>
 
-            <p className='my-4 text-xs text-neutral-600 lg:text-right'>© 2021 Klader.nl. All rights reserved.</p>
+            <p className='my-4 text-xs text-neutral-600 lg:text-right'>© 2023 Klader.nl. All rights reserved.</p>
             </div>
             <Image src="/lines-3.svg" alt="" className="absolute left-0 bottom-0 translate-y-1/4 h-full w-auto lg:w-full lg:h-auto object-cover object-top -z-50 pointer-events-none" width={1920} height={1080}/>
         </footer>
